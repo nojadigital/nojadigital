@@ -5,6 +5,8 @@ Website estático da Noja Digital, preparado para publicação no GitHub Pages o
 ## Estrutura
 - `index.html` — página principal e funcionalidades do website.
 - `assets/` — fotografias do portfólio e logótipos da marca.
+- `privacidade.html` e `termos.html` — páginas legais (estilo em `legal.css`).
+- `favicon/` — ícones do site (`favicon.ico`, `favicon-32.png`, `apple-touch-icon.png`, `icon-192.png`, `icon-512.png`, `site.webmanifest`).
 - `README.md` — instruções de publicação.
 
 ## Portfólio
@@ -12,7 +14,7 @@ As imagens são ficheiros locais, sem dependência de links externos. Os projeto
 
 ## Publicar no GitHub Pages
 1. Cria um repositório no GitHub.
-2. Envia `index.html`, `README.md` e a pasta `assets/` para a raiz do repositório.
+2. Envia todos os ficheiros da raiz (`index.html`, páginas legais, ícones, `README.md`) e a pasta `assets/` para a raiz do repositório.
 3. Vai a **Settings → Pages**.
 4. Em **Build and deployment**, escolhe **Deploy from a branch**.
 5. Seleciona a branch `main` e a pasta `/ (root)` e guarda.
