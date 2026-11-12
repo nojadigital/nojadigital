@@ -32,3 +32,5 @@ footer{max-width:860px;margin:0 auto;padding:24px 20px 40px;border-top:1px solid
 .fl2{display:flex;align-items:center;gap:20px;flex-wrap:wrap}.fl2 a{color:var(--mut);margin-left:16px}.fl2 a:hover{color:var(--a);text-decoration:none}.fl2 .si{margin:0;color:var(--fg)}
 @media(max-width:640px){.inc{grid-template-columns:1fr}.row .bt{flex:1 1 100%}.si.wide{width:100%}.fl2 a:first-child{margin-left:0}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+
+.cta2{text-align:center;margin-top:56px;padding:clamp(24px,5vw,48px) 0}.cta2 h2{margin:0}.cta2 p{max-width:480px;margin:12px auto 24px;color:var(--mut)}

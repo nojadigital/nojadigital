@@ -254,7 +254,7 @@ ${s.n ? `<p class="nt"><b>Aviso:</b> ${esc(s.n)}</p>` : ""}
 <div class="faq">${s.f.map(([q, a]) => `<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join("")}</div>
 <h2>Outros serviços</h2>
 <ul class="more">${others.map(([x]) => `<li><a href="${url(x)}">${esc(x.t)}</a></li>`).join("")}</ul>
-<div class="cta"><h2>Vamos começar?</h2><p>Conta-nos o que precisas e respondemos o mais depressa possível.</p><a class="bt k" href="/?orcamento=${s.slug}" rel="nofollow">Preencher formulário</a>${social("dk", true)}</div>
+<div class="cta2"><h2>Vamos começar?</h2><p>Conta-nos o que precisas e respondemos o mais depressa possível.</p><a class="bt" href="/?orcamento=${s.slug}" rel="nofollow">Preencher formulário</a></div>
 </main>
 <footer><span>© 2026 Noja Digital</span><div class="fl2">${social("ic")}<span><a href="/privacidade">Privacidade</a><a href="/termos">Termos</a></span></div></footer>
 </body>
@@ -271,7 +271,6 @@ const servicesBlock = GROUPS.map((g) =>
     return `<a class="cd" href="${url(x)}" data-o="${n}"><span class="e">${svgIc(x.e)}</span><div><h3>${esc(x.t)}</h3><p>${esc(x.d)}</p></div><span class="ar">${ARROW}</span></a>`; }).join("")}</div></div>`).join("\n");
 const faqBlock = FAQ.map(([q, a]) => `<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join("\n");
 const footerServices = S.map((s) => `<li><a href="${url(s)}">${esc(s.t.replace(" (E-commerce)", ""))}</a></li>`).join("");
-const socialCta = social("dk", true);
 const socialFooter = social("ic");
 const indexGraph = [
   orgNode(),
@@ -289,7 +288,6 @@ const inject = (name, html) => {
 inject("servicos", servicesBlock);
 inject("faq", faqBlock);
 inject("rodape-servicos", footerServices);
-inject("social-cta", socialCta);
 inject("social-rodape", socialFooter);
 inject("jsonld", ld({ "@context": "https://schema.org", "@graph": indexGraph }));
 writeFileSync(join(ROOT, "index.html"), idx);
