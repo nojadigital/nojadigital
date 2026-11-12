@@ -26,7 +26,7 @@ const SOCIAL = {
 
 const GROUPS = [
   { n: "01", t: "Soluções Digitais", d: "Serviços digitais e acesso a soluções de pagamento.", ids: [0, 2] },
-  { n: "02", t: "Criatividade e Produção", d: "Ideias transformadas em identidade visual e conteúdo audiovisual.", ids: [1, 3] },
+  { n: "02", t: "Criatividade e Produção", d: "Ideias transformadas em identidade visual e conteúdo audiovisual.", ids: [1, 3, 11] },
   { n: "03", t: "Marketing Digital", d: "Estratégia, presença online e campanhas para fazer a marca crescer.", ids: [4, 5] },
   { n: "04", t: "Tecnologia e Desenvolvimento", d: "Plataformas digitais feitas para apresentar, vender e expandir o teu negócio.", ids: [8, 9, 10] },
   { n: "05", t: "Apoio Administrativo", d: "Acompanhamento e orientação em processos administrativos.", ids: [6, 7] },
@@ -126,6 +126,14 @@ const S = [
     b: ["Desenhado à medida", "Experiência intuitiva", "Acompanhamento até à publicação"],
     i: ["Apps móveis (Android e iOS)", "Aplicações web", "Desenho de interface (UI/UX)", "Publicação e manutenção"],
     f: [["Quanto tempo demora?", "Depende da complexidade; indicamos prazos na proposta."], ["Publicam nas lojas de apps?", "Apoiamos o processo, sujeito às regras de cada loja."]] },
+  { slug: "criacao-de-croquis-de-localizacao", e: "pin", t: "Criação de Croquis de Localização",
+    title: "Croquis de Localização em Angola | Noja Digital",
+    desc: "Criação de croquis de localização em Angola: mapas simples e claros para mostrar como chegar ao teu negócio, evento ou imóvel, prontos para partilhar e imprimir.",
+    lead: "Croquis de localização claros, com pontos de referência e indicações simples, para os teus clientes e convidados chegarem sem se perder.",
+    d: "Croquis claros para mostrar como chegar ao teu negócio, evento ou imóvel.",
+    b: ["Pontos de referência claros", "Pronto para partilhar", "Versão digital e para impressão"],
+    i: ["Croqui de localização de negócios", "Croquis para convites e eventos", "Pontos de referência e indicações", "Versão digital e para impressão"],
+    f: [["Em que formatos recebo o croqui?", "Em formato digital, para partilhar por WhatsApp e redes sociais, e pronto para impressão, conforme combinado na proposta."], ["Que informação preciso de fornecer?", "A morada ou localização e os pontos de referência próximos; podemos ajudar a defini-los."]] },
 ];
 
 // Perguntas frequentes visíveis na página inicial (+ marcação FAQPage).
@@ -138,7 +146,7 @@ const FAQ = [
   ["Fazem vídeos para redes sociais?", "Sim, em formatos verticais e horizontais."],
 ];
 
-const IC = {card:'<rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20M6 15h4"/>',video:'<path d="m22 8-6 4 6 4V8Z"/><rect x="2" y="6" width="14" height="12" rx="2"/>',id:'<rect x="2" y="4" width="20" height="16" rx="2"/><circle cx="8.5" cy="11" r="2"/><path d="M5.5 17c.6-2.4 4.4-2.4 6 0M15 9h4M15 13h4"/>',palette:'<path d="M12 22a10 10 0 1 1 10-10c0 3-2 4-4 4h-2a2 2 0 0 0-1 3.5c.5.7.2 2.5-3 2.5Z"/><circle cx="7.5" cy="11" r="1"/><circle cx="12" cy="7" r="1"/><circle cx="16.5" cy="11" r="1"/>',chat:'<path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12Z"/><path d="M8.5 12h.01M12 12h.01M15.5 12h.01"/>',mega:'<path d="m3 11 18-5v12L3 14v-3Z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/>',passport:'<rect x="5" y="2" width="14" height="20" rx="2"/><circle cx="12" cy="10" r="3"/><path d="M9 17h6"/>',building:'<path d="M3 21h18M6 21V5a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v16M14 9h3a1 1 0 0 1 1 1v11"/><path d="M9 8h2M9 12h2M9 16h2"/>',globe:'<circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/>',cart:'<circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6"/>',phone:'<rect x="6" y="2" width="12" height="20" rx="3"/><path d="M11 18h2"/>'};
+const IC = {card:'<rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20M6 15h4"/>',video:'<path d="m22 8-6 4 6 4V8Z"/><rect x="2" y="6" width="14" height="12" rx="2"/>',id:'<rect x="2" y="4" width="20" height="16" rx="2"/><circle cx="8.5" cy="11" r="2"/><path d="M5.5 17c.6-2.4 4.4-2.4 6 0M15 9h4M15 13h4"/>',palette:'<path d="M12 22a10 10 0 1 1 10-10c0 3-2 4-4 4h-2a2 2 0 0 0-1 3.5c.5.7.2 2.5-3 2.5Z"/><circle cx="7.5" cy="11" r="1"/><circle cx="12" cy="7" r="1"/><circle cx="16.5" cy="11" r="1"/>',chat:'<path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12Z"/><path d="M8.5 12h.01M12 12h.01M15.5 12h.01"/>',mega:'<path d="m3 11 18-5v12L3 14v-3Z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/>',passport:'<rect x="5" y="2" width="14" height="20" rx="2"/><circle cx="12" cy="10" r="3"/><path d="M9 17h6"/>',building:'<path d="M3 21h18M6 21V5a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v16M14 9h3a1 1 0 0 1 1 1v11"/><path d="M9 8h2M9 12h2M9 16h2"/>',globe:'<circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/>',cart:'<circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6"/>',phone:'<rect x="6" y="2" width="12" height="20" rx="3"/><path d="M11 18h2"/>',pin:'<path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12Z"/><circle cx="12" cy="10" r="2.5"/>'};
 const svgIc = (k) => `<svg viewBox="0 0 24 24" aria-hidden="true">${IC[k]}</svg>`;
 const ARROW = '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>';
 
