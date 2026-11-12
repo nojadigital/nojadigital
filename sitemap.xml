@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://noja-digital.com/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-AO" href="https://noja-digital.com/"/>
+    <priority>1.0</priority>
+    <image:image><image:loc>https://noja-digital.com/assets/og-noja-digital.jpg</image:loc></image:image>
+    <image:image><image:loc>https://noja-digital.com/assets/identidade-visual.webp</image:loc></image:image>
+    <image:image><image:loc>https://noja-digital.com/assets/spot-institucional.webp</image:loc></image:image>
+    <image:image><image:loc>https://noja-digital.com/assets/campanha-leads.webp</image:loc></image:image>
+    <image:image><image:loc>https://noja-digital.com/assets/calendario-editorial.jpg</image:loc></image:image>
+    <image:image><image:loc>https://noja-digital.com/assets/backdrops.webp</image:loc></image:image>
+    <image:image><image:loc>https://noja-digital.com/assets/reels-produto.webp</image:loc></image:image>
+    <image:image><image:loc>https://noja-digital.com/assets/design-evento.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://noja-digital.com/servicos/carregamento-digital</loc>
+    <lastmod>2026-11-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-AO" href="https://noja-digital.com/servicos/carregamento-digital"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://noja-digital.com/servicos/audiovisual</loc>
+    <lastmod>2026-11-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-AO" href="https://noja-digital.com/servicos/audiovisual"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://noja-digital.com/servicos/conta-visa</loc>
+    <lastmod>2026-11-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-AO" href="https://noja-digital.com/servicos/conta-visa"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://noja-digital.com/servicos/design-grafico</loc>
+    <lastmod>2026-11-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-AO" href="https://noja-digital.com/servicos/design-grafico"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://noja-digital.com/servicos/gestao-de-redes-sociais</loc>
+    <lastmod>2026-11-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-AO" href="https://noja-digital.com/servicos/gestao-de-redes-sociais"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://noja-digital.com/servicos/gestao-de-anuncios</loc>
+    <lastmod>2026-11-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-AO" href="https://noja-digital.com/servicos/gestao-de-anuncios"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://noja-digital.com/servicos/agendamento-de-passaporte</loc>
+    <lastmod>2026-11-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-AO" href="https://noja-digital.com/servicos/agendamento-de-passaporte"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://noja-digital.com/servicos/constituicao-de-empresas</loc>
+    <lastmod>2026-11-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-AO" href="https://noja-digital.com/servicos/constituicao-de-empresas"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://noja-digital.com/servicos/criacao-de-websites</loc>
+    <lastmod>2026-11-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-AO" href="https://noja-digital.com/servicos/criacao-de-websites"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://noja-digital.com/servicos/lojas-online</loc>
+    <lastmod>2026-11-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-AO" href="https://noja-digital.com/servicos/lojas-online"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://noja-digital.com/servicos/desenvolvimento-de-aplicativos</loc>
+    <lastmod>2026-11-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-AO" href="https://noja-digital.com/servicos/desenvolvimento-de-aplicativos"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://noja-digital.com/privacidade</loc>
+    <lastmod>2026-11-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-AO" href="https://noja-digital.com/privacidade"/>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://noja-digital.com/termos</loc>
+    <lastmod>2026-11-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-AO" href="https://noja-digital.com/termos"/>
+    <priority>0.3</priority>
+  </url>
+</urlset>

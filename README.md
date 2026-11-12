@@ -7,7 +7,10 @@ Website estático da Noja Digital, preparado para publicação no GitHub Pages o
 - `assets/` — fotografias do portfólio e logótipos da marca.
 - `privacidade.html` e `termos.html` — páginas legais (estilo em `legal.css`).
 - `favicon/` — ícones do site (`favicon.ico`, `favicon-32.png`, `apple-touch-icon.png`, `icon-192.png`, `icon-512.png`, `site.webmanifest`).
-- `vercel.json` — URLs limpas na Vercel (sem `.html`).
+- `vercel.json` — URLs limpas, redirecionamento www, cache e cabeçalhos de segurança.
+- `servicos/` — uma página por serviço (geradas por `tools/gerar-paginas.mjs`, que também atualiza o `sitemap.xml`).
+- `sitemap.xml`, `robots.txt`, `404.html`, `servico.css` — SEO e páginas de serviço.
+- `SEO-GUIA.md` — passos a seguir após publicar (Search Console, formulário, pré-visualizações).
 - `README.md` — instruções de publicação.
 
 ## Portfólio

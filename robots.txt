@@ -1,0 +1,6 @@
+# Noja Digital — robots.txt
+User-agent: *
+Allow: /
+
+# Mapa do site para Google, Bing e outros motores
+Sitemap: https://noja-digital.com/sitemap.xml
